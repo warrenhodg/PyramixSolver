@@ -3,6 +3,9 @@ Solver for pyramix. It works by starting with a solved cube, then performing all
 
 By performing a breadth-first search, it should find only best routes.
 
+## Quick Run
+By swapping out the various `ROTATION_LOGIC` implementations in `pyramixPuzzle.js`, one can quickly see the results of just rotating the 1-level deep corners, or rotating the 2-level deep corners.
+
 ## Usage
 Because the app periodically outputs debug text to stderr, and the solutions to stdout, it it best to split them :
 
@@ -15,7 +18,7 @@ The string is made up of this cube folded into a pyramid :
 Triangles 00 - 08 make up the front.
 Triangles 09 - 17 make up the bottom.
 Triangles 18 - 26 make up the left.
-Triangles 17 - 35 make up the right.
+Triangles 27 - 35 make up the right.
 
 ```
            /\
